@@ -1,0 +1,159 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.outBtn{
+    padding: 4px 12px;
+    border: 1px solid rgb(168, 44, 72);
+    text-decoration: none;
+    color: white;
+    background-color: rgb(168, 44, 72);
+}
+.outBtn:hover{
+    background-color: white;
+    color: rgb(168, 44, 72);
+    transition: all 1s ease-in-out;
+}
+.inBtn{
+    padding: 6px 12px;
+    border: 2px solid white;
+    box-shadow: 1px 1px 3px grey;
+    background-color: white;
+}
+.inBtn:hover{
+    border: 2px solid rgb(168, 44, 72);
+    transition: all 1s ease-in-out;
+    color: rgb(168, 44, 72) ;
+}
+.capitalize{
+    text-transform: capitalize;
+}
+.choco{
+    color: rgb(107, 23, 23);
+}
+.grey{
+    color: grey;
+}
+
+
+
+/* navbar css */
+.navbar{
+    background-color: white ;
+}
+.logo{
+    height: 75px;
+}
+._link{
+    color: rgb(168, 44, 72) ;
+    margin-right:25px;
+    text-decoration: none;
+    font-weight: bold;
+}
+/* home css */
+.banner{
+    background: url(images/bg/bg-1.jpg)no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 265px 0;
+}
+
+/* about css */
+.about,.about-2,.explore,.faq{
+    padding: 55px 5px;
+}
+.ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.ul li{
+    color: grey;
+}
+.bi-check-lg{
+    color: rgb(168, 44, 72);
+    font-weight: bold;
+}
+.template{
+    background: url(../public/images/bg/bg-2.jpg)no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+/* exlore css */
+.rate{
+    color: rgb(168, 44, 72);
+}
+del{
+    color: grey;
+}
+
+/* reviews css */
+
+.reviews{
+    background-color: rgb(107, 23, 23);
+    padding: 40px 0;
+}
+.reviews img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.carousel-item{
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 4px;
+    padding: 10rem 3rem;
+}
+.carousel-indicators{
+    bottom: -50px;
+}
+.carousel-indicators button{
+    border-radius: 50%;
+}
+.carousel-indicators button.active{
+    opacity: 1;
+}
+
+/* faq */
+.banner-2{
+    background: url(./images/bg/bg-3.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 55px 5px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+.newsletter{
+    padding: 60px 7px;
+}
+.form{
+    display: flex;
+    justify-content: center;
+}
+
+
+/* footer css */
+footer{
+    background: rgb(107, 23, 23);
+    color: white;
+    user-select: none;
+}
+footer ul li{
+    margin: 0 5px 0 5px;
+    cursor: pointer;
+}
+
+/* scrollbar */
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(168, 44, 72);
+    border-radius: 100px;
+}
+::-webkit-scrollbar-track{
+    background-color:white;
+}
